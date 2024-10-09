@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(61, 62, 63);
+    display: flex;
+    margin: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 50vw;
+    height: 35vw;
+    
+  border: 2px solid rgb(128 128 128 / 23%); 
+  border-radius: 50px; 
+  box-shadow: 0 0 10px #9ecaed;
+  background-color:rgb(124 124 124 / 30%);
+  display: flex;
+    flex-direction: column;
+    gap: 13px;
+    align-items: center;
+}
+
+
+
+
+#birthdate{
+margin: 40px;
+border-color: #9ecaed;
+box-shadow: 0 0 10px #9ecaed;
+border-radius: 27px;
+padding: 20px;
+background-color: gray;
+
+}
+
+
+
+.ip{
+    background-color: #80808000;
+   border-radius: 60px;
+    box-shadow: 0 0 10px #9ecaed;
+    padding: 20px;
+   
+    
+}
+label{
+    background-color:#80808000;
+    font-size: xx-large;
+    margin: 33px;
+    padding: 6px;
+}
+
+#btn{
+    margin: 50px;
+    padding: 20px 50px;
+    font-size: xx-large;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    border-radius: 41px;
+    background-color: #8380807d;
+}
+
+#ageResult{
+    font-style: italic;
+    font-size: large;
+    color: black;
+   
+}
